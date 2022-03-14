@@ -1,1 +1,2 @@
-efwCPMXCXLEg3mNw6Ze6VwtRD8gptj
+const chars = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"];
+[...Array(10)].map(i=>chars[Math.random()*chars.length|0]).join``;
